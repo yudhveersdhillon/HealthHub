@@ -1,0 +1,46 @@
+/* Sidebar container */
+.sidebar {
+    width: 250px; /* Slightly wider for better readability */
+    background-color: #37e96c;
+    color: #fff;
+    height: 100vh;
+    padding: 30px 20px; /* Added more padding for spacing */
+    position: fixed;
+    left: 0;
+    top: 60px; /* Adjust based on navbar height */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for better separation */
+}
+
+/* Styling for the menu list */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensure it spans the full width of the sidebar */
+}
+
+/* Styling for each menu item */
+.menu-item {
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for each menu item */
+.menu-item:hover {
+    background-color: #4a90e2; /* Highlight the item when hovered */
+    color: #fff;
+}
+
+.menu-item:active {
+    background-color: #357ab7; /* Slightly darker shade when clicked */
+}
